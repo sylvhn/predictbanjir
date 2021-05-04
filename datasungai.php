@@ -172,7 +172,7 @@
                         $r = mysqli_fetch_array($query2);
                         $n = mysqli_num_rows($query2);
 
-                        include('cek.php');
+                        include('determinan.php');
                         
 
                         $detA = determinan  ($n, $r['x1'], $r['x2'], $r['x3'],
